@@ -1,0 +1,36 @@
+h1{
+    color:chocolate;
+    margin-left: 80px;
+    border:solid
+}
+.Header a{margin-top: 30px;margin-right: 10px;}
+.Header{
+    background-color:#4EFF00;
+    display:flex;
+    justify-content: space-between;
+}
+.game{border: double;border-color: white;}
+.MyGames{
+    background-color:#1533FF;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+a:link{color: chocolate;}
+a:visited{color:white;}
+.game{position: relative}
+.game h3{position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+}
+.game:hover h3 {opacity: 1;}
+.game:hover img {opacity: 0.3;}
+
